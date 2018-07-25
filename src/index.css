@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 25px;
+  font-family: sans-serif;
+  width: 40%;
+  margin: 0 auto;
+  background-color: rgb(163, 4, 4);
+  color: whitesmoke;
+}
+h1, h3 {
+  text-align: center;
+}
+button {
+  width: 130px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+input[type='text'] {
+  font-size: 20px;
+  padding: 5px;
+  min-width: 100%;
+}
+input[type='text']::placeholder {
+  text-align: center;
+}
+.item {
+  /* box-sizing: border-box; */
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 3px 3px 6px black;
+  margin-bottom: 10px;
+  background-color: rgb(255, 0, 0);
+}
+.item::first-letter {
+  text-transform: uppercase;
+}
+.item:nth-child(odd) {
+  background-color: rgb(78, 78, 78);
+  color: white;
+}
+.item:hover {
+  box-shadow: 2px 2px 5px black;
+  opacity: .7;
+  /* border: 1px solid rgb(175, 175, 175); */
+  /* text-shadow: 1px 1px rgb(197, 188, 188); */
+}
+#list-item {
+  width: 300px;
+  height: 26px;
+  border: 1px rgb(185, 185, 185) solid;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
